@@ -21,22 +21,32 @@
 </head>
 
 <body>
+    <!-- To do list -->
     <div class="to-do-list mx-auto mt-5">
         <h1 class="text-center mb-4">Todo List</h1>
+
+        <!-- List -->
         <ul class="list-group list-group-numbered">
             <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
                 <span class="ms-1 me-auto">Ciao</span>
+
+                <!-- Delete element -->
                 <span class="badge bg-danger" role="button">
                     <i class="fa-solid fa-trash"></i>
                 </span>
+                <!-- // Delete element -->
             </li>
         </ul>
+        <!-- // List -->
 
+        <!-- Add new element -->
         <div class="input-group mt-3">
             <input type="text" class="form-control" placeholder="Inserisci un elemento" aria-label="Inserisci un elemento" aria-describedby="button-addon2">
             <button class="btn btn-outline-secondary" type="button" id="button-addon2">Inserisci</button>
         </div>
+        <!-- // Add new element -->
     </div>
+
     <!-- Vue JS -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 </body>
